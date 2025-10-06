@@ -74,10 +74,10 @@ const remainingTasks = computed(() => {
 
 <style scoped>
 .todo-app-container {
+  font-size: 2rem;
   max-width: 400px;
   margin: 50px auto;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -101,13 +101,13 @@ h1 {
 .input-area button {
   padding: 10px 15px;
   border: none;
-  background-color: #42b883;
+  background-color: whitesmoke;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
 
 .input-area button:disabled {
-  background-color: #aae0c7;
+  background-color: rgb(220, 218, 218);
   cursor: not-allowed;
 }
 
@@ -120,6 +120,5 @@ h1 {
   text-align: center;
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid #eee;
 }
 </style>

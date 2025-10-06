@@ -34,7 +34,7 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  
 }
 
 li span {

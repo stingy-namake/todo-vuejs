@@ -45,7 +45,6 @@ li span {
 
 .todo-item-done {
   text-decoration: line-through;
-  color: #888;
 }
 
 button {

@@ -84,7 +84,6 @@ const remainingTasks = computed(() => {
 
 h1 {
   text-align: center;
-  color: #333;
 }
 
 .input-area {
@@ -102,8 +101,7 @@ h1 {
 .input-area button {
   padding: 10px 15px;
   border: none;
-  background-color: #42b883; /* Vue Green */
-  color: white;
+  background-color: #42b883;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
@@ -123,6 +121,5 @@ h1 {
   margin-top: 20px;
   padding-top: 10px;
   border-top: 1px solid #eee;
-  color: #555;
 }
 </style>
